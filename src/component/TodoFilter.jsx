@@ -9,7 +9,6 @@ export function TodoFilter({ value,onchange}) {
   return (
     
     <div>
-      {console.log(value)}
       <button   disabled={value === null} onClick={() => onchange(null)} >Aucun filtre</button>
       <button
         disabled={value === true}

@@ -20,13 +20,12 @@ const TodoItem = ({ todo, onToggle , onDelete}) => {
 
 
 
-export function TodoList({todos, onToggle, onDelete,props}) {
+export function TodoList({todos, onToggle, onDelete}) {
 
  
   return (
     
     <ul>
-      
       {todos.map(todo => <TodoItem todo={todo} onToggle={onToggle} key={todo.id}   onDelete={onDelete} />)}
     </ul>
   );
