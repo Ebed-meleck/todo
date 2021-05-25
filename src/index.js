@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+store.subscribe(() => console.log(store.getState()));
+
+store.dispatch({ type: ADD_TODO, payload: { title: 'demo' } });
+
+store.dispatch({ type: ADD_TODO, payload: { title: 'demo' } });
+store.dispatch({ type: ADD_TODO, payload: { title: 'demo' } });
+*/
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
